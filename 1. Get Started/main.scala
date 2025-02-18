@@ -2,11 +2,15 @@ import scala.io.StdIn.readLine
 
 object Main{
     def main(args: Array[String]): Unit = {
-        println("Hello world!")
-        println(msg)
+        // println("Hello world!")
+        // println(msg)
         // input_temperature
-        var doanh = People("Doanh", 22, 170.5)
-        doanh.printInfo()
+        // var doanh = People("Doanh", 22, 170.5)
+        // doanh.printInfo()
+        val list = List(1, 2, 3)
+        for {
+        number <- list
+        } println(s"Number: $number")
     }
 }
 def msg = "I was compiled with Scala :)"
