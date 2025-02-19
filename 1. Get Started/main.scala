@@ -1,6 +1,6 @@
 import scala.io.StdIn.readLine
 
-object Main{
+object Day_1{
     def main(args: Array[String]): Unit = {
         // println("Hello world!")
         // println(msg)

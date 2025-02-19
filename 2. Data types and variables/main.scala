@@ -1,19 +1,18 @@
 
 
-object Demo {
-   // def main(args: Array[String]) : Unit = {
-   //    var myVar :Int = 10
-   //    val myVal :String = "Hello Scala with datatype declaration."
-   //    var myVar1 = 20
-   //    val myVal1 = "Hello Scala new without datatype declaration."
+object Day_2 {
+   def main(args: Array[String]) : Unit = {
+      // var myVar :Int = 10
+      // val myVal :String = "Hello Scala with datatype declaration."
+      // var myVar1 = 20
+      // val myVal1 = "Hello Scala new without datatype declaration."
          
-   //    println(myVar)
-   //    println(myVal)
-   //    println(myVar1)
-   //    println(myVal1)
-   // }
+      // println(myVar)
+      // println(myVal)
+      // println(myVar1)
+      // println(myVal1)
 
-   def main2(args: Array[String]) : Unit = {
+
       val obj = PropertyExample()
       obj.display()
       println(obj.quantity)
@@ -24,8 +23,12 @@ object Demo {
 class PropertyExample {
    var quantity = 15
    private var price = 50
+
    def display() : Unit = {
       println("Quantity: " + quantity)
    }
-   println("Price: " + price)
+
+   def displayPrice() : Unit = {
+      println("Price: " + price)
+   }
 }
